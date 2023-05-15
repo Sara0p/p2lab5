@@ -1,1 +1,61 @@
++package edu.uqu.cs;
+/*
+ * Lab 5 
+ * CS 1312
+ */
+
+/*
+* Make sure to complete and submit your lab
+*/
+import java.util.Scanner;
+import java.util.ArrayList;
+class.ArrayList{
+  /*  privte String S1 ;
+    privte String S2 ;
+    privte boolean S3 ; */
+
+    
+
+    public static void main(String[] args) {
+        ArrayList<String> list1 = new ArrayList<String>(3);
+        list1.set(0,"Hi");
+        list1.set(1,"Hello");
+        list1.set(2,"blank");
+        System.out.println(list1);
+    
+    
+        ArrayList<String> list2 = new ArrayList<String>(3);
+        list2.set(0,"Hi");
+        list2.set(1,"Hello");
+        list2.set(2,"bloom");
+        
+        System.out.println(list2);
+    
+    
+    
+    /*part 3 */
+    ArrayList<boolean> list3 = new ArrayList<boolean>();
+    if{
+    boolean result = Arrays.equals(list1.toArray(),list2.toArray());
+    }
+    else{
+        boolean result = Arrays.equals(list1.toArray(),list2.toArray());
+    }
+    
+
+
+
+
+
+    
+}
+}
+
+
+
+
+
+
+
+
 
