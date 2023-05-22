@@ -19,10 +19,10 @@ import java.util.ArrayList;
         
         /*part 3 */
             ArrayList<Boolean> list3 = new ArrayList<>();
-            int i; 
              boolean result;
-            for (i=0;;i++) {
-               if (list1(i).equalsIgnoreCase(list2(i)) {   
+            for (String ee:list2 ) {
+                int i = list2.indexOf(ee);
+               if (ee.equalsIgnoreCase(list1.get(i))) {   
                  result = true; }
             else{
                 result = false;}
